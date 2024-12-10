@@ -1,0 +1,56 @@
+.parallax {
+    /* The image used */
+    background-image: url("josh\ by\ the\ waterfall.jpg");
+
+    /* Set a specific height */
+    min-height: 1400px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 200px;
+    color: whitesmoke;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #0f1103;
+    overflow: hidden;
+    position: fixed;
+    /* Set the navbar to fixed position */
+    top: 0;
+    /* Position the navbar at the top of the page */
+    width: 100%;
+    /* Full width */
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 24px;
+    text-decoration: none;
+    font-size: 26px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #3b46a3;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #0452aa;
+    color: white;
+}
